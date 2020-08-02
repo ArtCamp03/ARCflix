@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Açao",
+            "descriçao": "Uma de varias categorias disponiveis",
+            "cor": "#cbd1ff"
+        },
+        {
+            "id": 2,
+            "nome": "Aventura",
+            "descriçao": "outra de varias categorias disponiveis",
+            "cor": "#cbd1ff"
+        }
+    ]
+}
