@@ -32,7 +32,13 @@ function CadastroCategoria() {
   useEffect(() => {
     console.log('Ola Brasil');
     const URL_TOP = 'http://localhost:8081/categorias';
-    fetch(URL_TOP);
+    fetch(URL_TOP)
+    .then(async (respostaDoServidor) => {
+      const resposta = await respostaDoServidor.json();
+      setCategorias({
+        ...resposta,
+      });
+    });
 
   }, []);
 
